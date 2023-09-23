@@ -3,22 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224AF8782AB83E6E00EF7DE7 /* WideRectangleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224AF8772AB83E6E00EF7DE7 /* WideRectangleCell.swift */; };
+		224AF87B2AB8745500EF7DE7 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224AF87A2AB8745500EF7DE7 /* LaunchViewModel.swift */; };
+		224AF87D2AB8746900EF7DE7 /* Launche.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224AF87C2AB8746900EF7DE7 /* Launche.swift */; };
 		22B260502AB1BE1500B48328 /* SpaceXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2604F2AB1BE1500B48328 /* SpaceXApp.swift */; };
 		22B260522AB1BE1500B48328 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B260512AB1BE1500B48328 /* ContentView.swift */; };
 		22B260542AB1BE1800B48328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B260532AB1BE1800B48328 /* Assets.xcassets */; };
 		22B260572AB1BE1800B48328 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B260562AB1BE1800B48328 /* Preview Assets.xcassets */; };
+		22B5E8842ABC3A03005CB174 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B5E8832ABC3A03005CB174 /* Constant.swift */; };
+		22B5E8872ABC3C71005CB174 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B5E8862ABC3C71005CB174 /* NetworkService.swift */; };
+		22B5E88A2ABC3D3C005CB174 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B5E8892ABC3D3C005CB174 /* Resource.swift */; };
+		22B5E88C2ABC3D88005CB174 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B5E88B2ABC3D88005CB174 /* AppError.swift */; };
+		22B5E88F2ABC419A005CB174 /* Resouces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B5E88E2ABC419A005CB174 /* Resouces.swift */; };
+		22D2FD482ABDD50600C281FA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FD472ABDD50600C281FA /* HeaderView.swift */; };
+		D632DFFA8DC67EDBAEF08531 /* Pods_SpaceX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05BB3A2296ECCFE1EE5E026 /* Pods_SpaceX.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		179A5BA4A6CEF8522A0C0FA7 /* Pods-SpaceX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX.release.xcconfig"; path = "Target Support Files/Pods-SpaceX/Pods-SpaceX.release.xcconfig"; sourceTree = "<group>"; };
+		224AF8772AB83E6E00EF7DE7 /* WideRectangleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WideRectangleCell.swift; sourceTree = "<group>"; };
+		224AF87A2AB8745500EF7DE7 /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		224AF87C2AB8746900EF7DE7 /* Launche.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launche.swift; sourceTree = "<group>"; };
 		22B2604C2AB1BE1500B48328 /* SpaceX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B2604F2AB1BE1500B48328 /* SpaceXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXApp.swift; sourceTree = "<group>"; };
 		22B260512AB1BE1500B48328 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22B260532AB1BE1800B48328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22B260562AB1BE1800B48328 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22B5E8832ABC3A03005CB174 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		22B5E8862ABC3C71005CB174 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		22B5E8892ABC3D3C005CB174 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		22B5E88B2ABC3D88005CB174 /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		22B5E88E2ABC419A005CB174 /* Resouces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resouces.swift; sourceTree = "<group>"; };
+		22D2FD472ABDD50600C281FA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E55EE091CC4CD0801A62FC8B /* Pods-SpaceX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX.debug.xcconfig"; path = "Target Support Files/Pods-SpaceX/Pods-SpaceX.debug.xcconfig"; sourceTree = "<group>"; };
+		F05BB3A2296ECCFE1EE5E026 /* Pods_SpaceX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +48,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D632DFFA8DC67EDBAEF08531 /* Pods_SpaceX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1567F8D270FD9622ED62036D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F05BB3A2296ECCFE1EE5E026 /* Pods_SpaceX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		224AF8792AB8744300EF7DE7 /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				224AF87A2AB8745500EF7DE7 /* LaunchViewModel.swift */,
+			);
+			path = Viewmodel;
+			sourceTree = "<group>";
+		};
 		22B260432AB1BE1500B48328 = {
 			isa = PBXGroup;
 			children = (
 				22B2604E2AB1BE1500B48328 /* SpaceX */,
 				22B2604D2AB1BE1500B48328 /* Products */,
+				B0D75106779C7067A3309EFC /* Pods */,
+				1567F8D270FD9622ED62036D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +93,11 @@
 			isa = PBXGroup;
 			children = (
 				22B2604F2AB1BE1500B48328 /* SpaceXApp.swift */,
-				22B260512AB1BE1500B48328 /* ContentView.swift */,
-				22B260532AB1BE1800B48328 /* Assets.xcassets */,
+				22B5E8852ABC3C4F005CB174 /* Common */,
+				22B5E8802ABC39AA005CB174 /* App */,
+				224AF8792AB8744300EF7DE7 /* Viewmodel */,
+				22B2605F2AB207A700B48328 /* Model */,
+				22B260602AB207AE00B48328 /* View */,
 				22B260552AB1BE1800B48328 /* Preview Content */,
 			);
 			path = SpaceX;
@@ -67,6 +111,93 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		22B2605F2AB207A700B48328 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				224AF87C2AB8746900EF7DE7 /* Launche.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22B260602AB207AE00B48328 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22B5E88D2ABC3DCB005CB174 /* LauncheList */,
+				22B5E8812ABC39B8005CB174 /* CommonViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22B5E8802ABC39AA005CB174 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				22B5E8822ABC39F1005CB174 /* Const */,
+				22B260532AB1BE1800B48328 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		22B5E8812ABC39B8005CB174 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				224AF8772AB83E6E00EF7DE7 /* WideRectangleCell.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		22B5E8822ABC39F1005CB174 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				22B5E8832ABC3A03005CB174 /* Constant.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		22B5E8852ABC3C4F005CB174 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				22B5E8882ABC3D1D005CB174 /* Network */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		22B5E8882ABC3D1D005CB174 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				22B5E88B2ABC3D88005CB174 /* AppError.swift */,
+				22B5E8862ABC3C71005CB174 /* NetworkService.swift */,
+				22B5E8892ABC3D3C005CB174 /* Resource.swift */,
+				22B5E88E2ABC419A005CB174 /* Resouces.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		22B5E88D2ABC3DCB005CB174 /* LauncheList */ = {
+			isa = PBXGroup;
+			children = (
+				22D2FD462ABDD4CE00C281FA /* HeaderView */,
+				22B260512AB1BE1500B48328 /* ContentView.swift */,
+			);
+			path = LauncheList;
+			sourceTree = "<group>";
+		};
+		22D2FD462ABDD4CE00C281FA /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				22D2FD472ABDD50600C281FA /* HeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		B0D75106779C7067A3309EFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E55EE091CC4CD0801A62FC8B /* Pods-SpaceX.debug.xcconfig */,
+				179A5BA4A6CEF8522A0C0FA7 /* Pods-SpaceX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +205,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22B2605A2AB1BE1800B48328 /* Build configuration list for PBXNativeTarget "SpaceX" */;
 			buildPhases = (
+				9FE1ECB9E25E0FD28737A5BE /* [CP] Check Pods Manifest.lock */,
 				22B260482AB1BE1500B48328 /* Sources */,
 				22B260492AB1BE1500B48328 /* Frameworks */,
 				22B2604A2AB1BE1500B48328 /* Resources */,
+				64427BADA7C5322B6AAA3662 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SpaceX;
+			packageProductDependencies = (
+			);
 			productName = SpaceX;
 			productReference = 22B2604C2AB1BE1500B48328 /* SpaceX.app */;
 			productType = "com.apple.product-type.application";
@@ -103,7 +238,7 @@
 				};
 			};
 			buildConfigurationList = 22B260472AB1BE1500B48328 /* Build configuration list for PBXProject "SpaceX" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +246,8 @@
 				Base,
 			);
 			mainGroup = 22B260432AB1BE1500B48328;
+			packageReferences = (
+			);
 			productRefGroup = 22B2604D2AB1BE1500B48328 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,13 +269,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64427BADA7C5322B6AAA3662 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX/Pods-SpaceX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX/Pods-SpaceX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpaceX/Pods-SpaceX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE1ECB9E25E0FD28737A5BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22B260482AB1BE1500B48328 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B5E88F2ABC419A005CB174 /* Resouces.swift in Sources */,
 				22B260522AB1BE1500B48328 /* ContentView.swift in Sources */,
+				22B5E88A2ABC3D3C005CB174 /* Resource.swift in Sources */,
+				22B5E88C2ABC3D88005CB174 /* AppError.swift in Sources */,
+				224AF87D2AB8746900EF7DE7 /* Launche.swift in Sources */,
 				22B260502AB1BE1500B48328 /* SpaceXApp.swift in Sources */,
+				224AF8782AB83E6E00EF7DE7 /* WideRectangleCell.swift in Sources */,
+				22D2FD482ABDD50600C281FA /* HeaderView.swift in Sources */,
+				224AF87B2AB8745500EF7DE7 /* LaunchViewModel.swift in Sources */,
+				22B5E8842ABC3A03005CB174 /* Constant.swift in Sources */,
+				22B5E8872ABC3C71005CB174 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +449,7 @@
 		};
 		22B2605B2AB1BE1800B48328 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E55EE091CC4CD0801A62FC8B /* Pods-SpaceX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +479,7 @@
 		};
 		22B2605C2AB1BE1800B48328 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179A5BA4A6CEF8522A0C0FA7 /* Pods-SpaceX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
