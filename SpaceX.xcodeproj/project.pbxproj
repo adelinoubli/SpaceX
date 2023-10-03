@@ -20,6 +20,7 @@
 		22B5E88C2ABC3D88005CB174 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B5E88B2ABC3D88005CB174 /* AppError.swift */; };
 		22B5E88F2ABC419A005CB174 /* Resouces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B5E88E2ABC419A005CB174 /* Resouces.swift */; };
 		22D2FD482ABDD50600C281FA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FD472ABDD50600C281FA /* HeaderView.swift */; };
+		22FE3CB32ACAB9300044F7E4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE3CB22ACAB92F0044F7E4 /* DetailView.swift */; };
 		D632DFFA8DC67EDBAEF08531 /* Pods_SpaceX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05BB3A2296ECCFE1EE5E026 /* Pods_SpaceX.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		22B5E88B2ABC3D88005CB174 /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		22B5E88E2ABC419A005CB174 /* Resouces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resouces.swift; sourceTree = "<group>"; };
 		22D2FD472ABDD50600C281FA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		22FE3CB22ACAB92F0044F7E4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		E55EE091CC4CD0801A62FC8B /* Pods-SpaceX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX.debug.xcconfig"; path = "Target Support Files/Pods-SpaceX/Pods-SpaceX.debug.xcconfig"; sourceTree = "<group>"; };
 		F05BB3A2296ECCFE1EE5E026 /* Pods_SpaceX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -177,6 +179,7 @@
 			children = (
 				22D2FD462ABDD4CE00C281FA /* HeaderView */,
 				22B260512AB1BE1500B48328 /* ContentView.swift */,
+				22FE3CB22ACAB92F0044F7E4 /* DetailView.swift */,
 			);
 			path = LauncheList;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B5E88F2ABC419A005CB174 /* Resouces.swift in Sources */,
+				22FE3CB32ACAB9300044F7E4 /* DetailView.swift in Sources */,
 				22B260522AB1BE1500B48328 /* ContentView.swift in Sources */,
 				22B5E88A2ABC3D3C005CB174 /* Resource.swift in Sources */,
 				22B5E88C2ABC3D88005CB174 /* AppError.swift in Sources */,
