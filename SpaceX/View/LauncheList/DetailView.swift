@@ -39,44 +39,65 @@ struct DetailView: View {
         
         GeometryReader { geometry in
             ZStack(alignment: .trailing){
-                Image("Ciel")
-                    .resizable()
-                    .scaledToFit()
-                    .clipped()
-                    .edgesIgnoringSafeArea(.top)
-                    .frame(width: geometry.size.width * 0.9 , height: geometry.size.height * 0.9, alignment: .topLeading)
-                    .offset(CGSize(width: geometry.size
-                        .width * 0.3, height: -50))
                 Rectangle()
+                    .ignoresSafeArea()
                     .foregroundColor(.clear)
-                    .frame(width: 78, height: 300)
+                    .frame(width: geometry.size.width * 0.80, height: geometry.size.height * 0.55,  alignment: .topTrailing)
                     .background(
-                        Image("falcon")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 5, height: 8)
-                            .scaleEffect(isAnimated ? 50 : 1)
-                            .offset(x:  isAnimated ? -geometry.size.width  * 0.4 : 0, y: 20)
-                            .animation(animation)
+                        LinearGradient(
+                            stops: [
+                                Gradient.Stop(color: Color(red: 0.03, green: 0.03, blue: 0.21), location: 0.00),
+                                Gradient.Stop(color: Color(red: 0.05, green: 0.06, blue: 0.43), location: 0.32),
+                                Gradient.Stop(color: Color(red: 0.12, green: 0.47, blue: 0.74), location: 1.00),
+                            ],
+                            startPoint: UnitPoint(x: 0.21, y: -0.22),
+                            endPoint: UnitPoint(x: 0.23, y: 0.75)
+                        )
+                        .roundedCorner(40, corners: [.bottomLeft])
+                        .edgesIgnoringSafeArea(.all)
+
                     )
-                
+
+                    .offset(x: geometry.size.height * 0.13)
+
+                    Rectangle()
+                        .foregroundColor(.clear)
+                        .frame(width: 78, height: 300)
+                        .background(
+                            Image("falcon")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 5, height: 8)
+                                .scaleEffect(isAnimated ? 50 : 1)
+                                .offset(x:  isAnimated ? -geometry.size.width  * 0.3 : 0, y: 90)
+                                .animation(animation)
+                        )
                 VStack (alignment: .trailing, spacing: 30) {
-                    Image("icon")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .frame(width: 76, height: 65)
-                        .clipped()
+                        Image("icon")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .frame(width: 76, height: 65)
+                            .clipped()
+                        
+                        Text("BIG\nFALCON\nROCKET")
+                        .font(.system(size: geometry.size.width * 0.1))
+                            .bold()
+                            .multilineTextAlignment(.trailing)
+                            .autocapitalization(.allCharacters)
+                            .foregroundColor(.white)
                     
-                    Text("BIG\nFALCON\nROCKET")
-                        .font(.system(size: 35))
-                        .bold()
-                        .multilineTextAlignment(.trailing)
-                        .autocapitalization(.allCharacters)
-                        .foregroundColor(.white)
+                    Text("SEPTEMBER 2021")
+                      .font(
+                        .system(size: 18)
+                          .weight(.light)
+                      )
+                      .kerning(0.29455)
+                      .multilineTextAlignment(.trailing)
+                      .foregroundColor(.white)
+                    }
+                .offset(x: geometry.size.width * 0.15)
                 }
-                
-            }
-            .offset(x: 30, y: -50)
+            
             
         }
         .onAppear {
